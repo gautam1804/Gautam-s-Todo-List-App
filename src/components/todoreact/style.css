@@ -227,3 +227,36 @@ input:focus {
   -webkit-transform: translateY(0) scale(1, 1);
   transform: translateY(0) scale(1, 1);
 }
+
+@media (max-width: 767px) {
+  input {
+    min-width: 23rem;
+    height: 3.4rem;
+    padding: 2rem 1.2rem;
+    font-size: 1.8rem;
+    line-height: 1.42857143;
+    margin-top: 2rem;
+    color: rgb(58, 57, 57);
+    background-color: #fff;
+    background-image: none;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+    -webkit-box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 / 8%);
+    box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 / 8%);
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  }
+  .eachItem {
+    align-items: center;
+    background: #fff;
+    background: #5529dc;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.7rem;
+    margin-left: 1rem;
+    min-width: 3rem;
+    width: 23rem;
+    padding: 1.2rem 1rem;
+    word-break: break-word;
+}
+}
